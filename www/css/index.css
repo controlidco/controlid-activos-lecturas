@@ -1,0 +1,92 @@
+/**
+  *@file index.css
+  */
+
+.btn-extra{
+	width: 230px;
+	height: 40px;
+	font-size: 20px;
+}
+.font-extra{
+	font-size: 28px;
+}
+.box{
+	padding: 100px;
+}
+
+.field-extra{
+	width: 230px;
+	height: 40px;
+	font-size: 20px;
+}
+.form-box
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:  15px;
+       height:  auto;
+       padding: 7px 9px;
+       border: 1px solid #e5e5e5;
+     /*-webkit-border-radius: 5px;
+        */-moz-border-radius: 5px;
+               border-radius: 5px;
+}  
+ .form-box input[type="text"]:hover{border:1px solid #097CFF;}
+ .form-box input[type="text"]:focus{border:1px solid #097CFF;}
+
+ .form-box input[type="password"]:hover{border:1px solid #097CFF;}
+ .form-box input[type="password"]:focus{border:1px solid #097CFF;}
+.div-middle{
+	margin-top: 40px;
+}
+#logo{
+	margin-top: 40px;
+	margin-left: auto;
+    margin-right: auto;
+	width: 286px;
+	height: 271px;
+	background-image: url("images/logo.jpg") !important;
+}
+
+.cont{
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 220px;
+}
+.font-medio{
+	font-size: 20px;
+}
+#enunciado{
+	float: left;
+	font-size: 20px;
+}
+#checkbox-ubicacion{
+	float: right;
+	width: 20px;
+	height: 20px;
+}
+
+.lab{
+	margin-left: 80px;
+}
+
+div.jGrowl.message-jgrowl
+{
+ 	display: block;
+  	margin-left: auto;
+    margin-right: auto;
+}
+
+.div-center{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    padding-left: 40px;
+    margin-bottom: 10px;
+}
+.size{
+	font-size: 16px;
+}

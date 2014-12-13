@@ -1,0 +1,12 @@
+/* Start by setting display:none to make this hidden.
+   Then we position it in relation to the viewport window
+   with position:fixed. Width, height, top and left speak
+   speak for themselves. Background we set to 80% white with
+   our animation centered, and no-repeating */
+.loading {
+
+    height: 50px;
+    background: url('images/ajax-loader.gif') 50% 50% no-repeat #ede9df;
+    opacity: .18;
+    display: none;
+}
