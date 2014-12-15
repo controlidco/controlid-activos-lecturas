@@ -19,9 +19,10 @@ App.IndexController = Ember.ObjectController.extend({
      */
     var self = this;
     nfc.addTagDiscoveredListener(
-
-
       function(nfcEvent) {
+        $.jGrowl.defaults.appendTo = "div#message-jgrowl";
+        $.jGrowl("Leyendo...");
+        console.log('leyendo..');
         self.set('render', false);
         self.set('error', false);
         var tag = nfcEvent.tag;
@@ -46,7 +47,7 @@ App.IndexController = Ember.ObjectController.extend({
           if (Ember.isEqual(result.status, 'error')) {
             self.set('error', true);
             self.set('errorMessage',
-              'El chip no ha sido proporcionado por ControlID');
+              result.message);
           }
         } else {
           self.set('error', true);

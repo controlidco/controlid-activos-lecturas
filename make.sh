@@ -1,5 +1,5 @@
-phonegap build android
-phonegap install android
+cordova build android
+cordova run  android
 adb logcat -c
 adb logcat | grep "Web "
 

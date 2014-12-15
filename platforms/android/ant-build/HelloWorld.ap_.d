@@ -9,6 +9,7 @@
 /Development/repositorios/controlid-activos-lectura/platforms/android/res/drawable-port-ldpi/screen.png \
 /Development/repositorios/controlid-activos-lectura/platforms/android/res/drawable-port-mdpi/screen.png \
 /Development/repositorios/controlid-activos-lectura/platforms/android/res/drawable-port-xhdpi/screen.png \
+/Development/repositorios/controlid-activos-lectura/platforms/android/res/drawable-xxhdpi/icon.png \
 /Development/repositorios/controlid-activos-lectura/platforms/android/res/values/strings.xml \
 /Development/repositorios/controlid-activos-lectura/platforms/android/res/xml/config.xml \
 /Development/repositorios/controlid-activos-lectura/platforms/android/ant-build/res/drawable/icon.png \
@@ -21,6 +22,7 @@
 /Development/repositorios/controlid-activos-lectura/platforms/android/ant-build/res/drawable-port-ldpi/screen.png \
 /Development/repositorios/controlid-activos-lectura/platforms/android/ant-build/res/drawable-port-mdpi/screen.png \
 /Development/repositorios/controlid-activos-lectura/platforms/android/ant-build/res/drawable-port-xhdpi/screen.png \
+/Development/repositorios/controlid-activos-lectura/platforms/android/ant-build/res/drawable-xxhdpi/icon.png \
 /Development/repositorios/controlid-activos-lectura/platforms/android/assets/_where-is-www.txt \
 /Development/repositorios/controlid-activos-lectura/platforms/android/assets/www \
 /Development/repositorios/controlid-activos-lectura/platforms/android/assets/www/cordova.js \
@@ -30,7 +32,6 @@
 /Development/repositorios/controlid-activos-lectura/platforms/android/assets/www/img \
 /Development/repositorios/controlid-activos-lectura/platforms/android/assets/www/index.html \
 /Development/repositorios/controlid-activos-lectura/platforms/android/assets/www/js \
-/Development/repositorios/controlid-activos-lectura/platforms/android/assets/www/phonegap.js \
 /Development/repositorios/controlid-activos-lectura/platforms/android/assets/www/plugins \
 /Development/repositorios/controlid-activos-lectura/platforms/android/assets/www/res \
 /Development/repositorios/controlid-activos-lectura/platforms/android/assets/www/spec \
@@ -278,8 +279,13 @@
 /Development/repositorios/controlid-activos-lectura/platforms/android/assets/www/js/libs/jquery.mobile-1.2.0.min.js \
 /Development/repositorios/controlid-activos-lectura/platforms/android/assets/www/js/libs/mootools-core.js \
 /Development/repositorios/controlid-activos-lectura/platforms/android/assets/www/plugins/com.chariotsolutions.nfc.plugin \
+/Development/repositorios/controlid-activos-lectura/platforms/android/assets/www/plugins/org.apache.cordova.dialogs \
 /Development/repositorios/controlid-activos-lectura/platforms/android/assets/www/plugins/com.chariotsolutions.nfc.plugin/www \
 /Development/repositorios/controlid-activos-lectura/platforms/android/assets/www/plugins/com.chariotsolutions.nfc.plugin/www/phonegap-nfc.js \
+/Development/repositorios/controlid-activos-lectura/platforms/android/assets/www/plugins/org.apache.cordova.dialogs/www \
+/Development/repositorios/controlid-activos-lectura/platforms/android/assets/www/plugins/org.apache.cordova.dialogs/www/android \
+/Development/repositorios/controlid-activos-lectura/platforms/android/assets/www/plugins/org.apache.cordova.dialogs/www/notification.js \
+/Development/repositorios/controlid-activos-lectura/platforms/android/assets/www/plugins/org.apache.cordova.dialogs/www/android/notification.js \
 /Development/repositorios/controlid-activos-lectura/platforms/android/assets/www/res/icon \
 /Development/repositorios/controlid-activos-lectura/platforms/android/assets/www/res/screen \
 /Development/repositorios/controlid-activos-lectura/platforms/android/assets/www/res/icon/android \
