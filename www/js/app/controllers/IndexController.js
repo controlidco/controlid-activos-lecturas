@@ -45,8 +45,8 @@ App.IndexController = Ember.ObjectController.extend({
             self.set('descripcion', result.activo.descripcion);
             self.set('serial', result.activo.serial);
             self.set('marca', result.activo.marca);
-            self.set('responsable', result.activo.marca);
-            self.set('cedulaResponsable', result.activo.marca);
+            self.set('responsable', result.activo.responsable);
+            self.set('cedulaResponsable', result.activo.cedulaResponsable);
           }
           if (Ember.isEqual(result.status, 'error')) {
             self.set('error', true);
