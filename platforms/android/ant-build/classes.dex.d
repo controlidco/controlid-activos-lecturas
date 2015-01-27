@@ -10,6 +10,13 @@
 /Development/repositorios/controlid-activos-lectura/platforms/android/ant-build/classes/com/chariotsolutions/nfc/plugin/NfcPlugin$9.class \
 /Development/repositorios/controlid-activos-lectura/platforms/android/ant-build/classes/com/chariotsolutions/nfc/plugin/NfcPlugin.class \
 /Development/repositorios/controlid-activos-lectura/platforms/android/ant-build/classes/com/chariotsolutions/nfc/plugin/Util.class \
+/Development/repositorios/controlid-activos-lectura/platforms/android/ant-build/classes/com/controlid/activos/lectura/BuildConfig.class \
+/Development/repositorios/controlid-activos-lectura/platforms/android/ant-build/classes/com/controlid/activos/lectura/HelloWorld.class \
+/Development/repositorios/controlid-activos-lectura/platforms/android/ant-build/classes/com/controlid/activos/lectura/R$attr.class \
+/Development/repositorios/controlid-activos-lectura/platforms/android/ant-build/classes/com/controlid/activos/lectura/R$drawable.class \
+/Development/repositorios/controlid-activos-lectura/platforms/android/ant-build/classes/com/controlid/activos/lectura/R$string.class \
+/Development/repositorios/controlid-activos-lectura/platforms/android/ant-build/classes/com/controlid/activos/lectura/R$xml.class \
+/Development/repositorios/controlid-activos-lectura/platforms/android/ant-build/classes/com/controlid/activos/lectura/R.class \
 /Development/repositorios/controlid-activos-lectura/platforms/android/ant-build/classes/com/phonegap/helloworld/BuildConfig.class \
 /Development/repositorios/controlid-activos-lectura/platforms/android/ant-build/classes/com/phonegap/helloworld/HelloWorld.class \
 /Development/repositorios/controlid-activos-lectura/platforms/android/ant-build/classes/com/phonegap/helloworld/R$attr.class \

@@ -31,7 +31,7 @@
      /*-webkit-border-radius: 5px;
         */-moz-border-radius: 5px;
                border-radius: 5px;
-}  
+}
  .form-box input[type="text"]:hover{border:1px solid #097CFF;}
  .form-box input[type="text"]:focus{border:1px solid #097CFF;}
 
@@ -89,4 +89,7 @@ div.jGrowl.message-jgrowl
 }
 .size{
 	font-size: 16px;
+}
+.title{
+	font-size: 16px !important;
 }
