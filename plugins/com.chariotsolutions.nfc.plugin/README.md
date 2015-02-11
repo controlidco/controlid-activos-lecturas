@@ -56,6 +56,7 @@ Note: BlackBerry 7 support is only available for Cordova 2.x. For applications t
 - [nfc.erase](#nfcerase)
 - [nfc.handover](#nfchandover)
 - [nfc.stopHandover](#nfcstophandover)
+- [nfc.enabled](#enabled)
 
 ## nfc.addNdefListener
 
@@ -421,6 +422,31 @@ Function `nfc.stopHandover` stops sharing data via peer-to-peer.
 
 - Android
 
+## nfc.enabled
+
+Check if NFC is available and enabled on this device.
+
+nfc.enabled(onSuccess, onFailure);
+
+### Parameters
+
+- __onSuccess__: The callback that is called when NFC is enabled.
+- __onFailure__: The callback that is called when NFC is disabled or missing.
+
+### Description
+
+Function `nfc.enabled` explicitly checks to see if the phone has NFC and if NFC is enabled. If
+everything is OK, the success callback is called. If there is a problem, the failure callback
+will be called with a reason code.
+
+The reason will be **NO_NFC** if the device doesn't support NFC and **NFC_DISABLED** if the user has disabled NFC.
+
+Note: that on Android the NFC status is checked before every API call **NO_NFC** or **NFC_DISABLED** can be returned in **any** failure funtion.
+
+### Supported Platforms
+
+- Android
+
 # NDEF
 
 > The `ndef` object provides NDEF constants, functions for creating NdefRecords, and functions for converting data.
@@ -468,6 +494,10 @@ Create a mime type record
 Create an Empty record
 
     var record = ndef.emptyRecord();
+
+Create an Android Application Record (AAR)
+
+    var record = ndef.androidApplicationRecord('com.example');
 
 See `ndef.record`, `ndef.textRecord`, `ndef.mimeMediaRecord`, and `ndef.uriRecord`.
 

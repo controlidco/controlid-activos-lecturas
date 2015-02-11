@@ -1,3 +1,3 @@
 # view AndroidManifest.xml #generated:6
--keep class com.controlid.activos.lectura.HelloWorld { <init>(...); }
+-keep class com.controlid.activos.lectura.CordovaApp { <init>(...); }
 

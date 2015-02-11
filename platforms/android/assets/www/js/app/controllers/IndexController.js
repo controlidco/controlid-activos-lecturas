@@ -50,8 +50,7 @@ App.IndexController = Ember.ObjectController.extend({
           }
           if (Ember.isEqual(result.status, 'error')) {
             self.set('error', true);
-            self.set('errorMessage',
-              result.message);
+            self.set('errorMessage',result.message);
           }
         } else {
           self.set('error', true);
