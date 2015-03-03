@@ -9,8 +9,7 @@ var LecturaService = Ember.Object.extend({
    * @return Respuesta del web service
    */
   callService: function(tag) {
-    var DEV = 'http://controlid.co/dev/controlid';
-    var PRODUCTION = 'http://controlid.co/controlid';
+    var DEV = 'http://controlid.co/activos';
     var webServiceURL = DEV + '/web/app_dev.php/ws/infoActivo';
 
     var soapMessage =
