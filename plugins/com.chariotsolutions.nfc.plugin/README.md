@@ -56,7 +56,7 @@ Note: BlackBerry 7 support is only available for Cordova 2.x. For applications t
 - [nfc.erase](#nfcerase)
 - [nfc.handover](#nfchandover)
 - [nfc.stopHandover](#nfcstophandover)
-- [nfc.enabled](#enabled)
+- [nfc.enabled](#nfcenabled)
 
 ## nfc.addNdefListener
 
@@ -472,7 +472,7 @@ The `ndef` object has a function for creating NdefRecords
 
     var type = "text/pg",
         id = [],
-        payload = ndef.stringToBytes("Hello World"),
+        payload = nfc.stringToBytes("Hello World"),
         record = ndef.record(ndef.TNF_MIME_MEDIA, type, id, payload);
 
 There are also helper functions for some types of records

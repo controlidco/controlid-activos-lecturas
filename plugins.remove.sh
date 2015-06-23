@@ -1,2 +1,2 @@
-phonegap plugin remove com.chariotsolutions.nfc.plugin 
-phonegap plugin remove org.apache.cordova.dialogs
+cordova plugin remove com.chariotsolutions.nfc.plugin 
+cordova plugin remove org.apache.cordova.dialogs
